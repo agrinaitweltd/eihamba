@@ -1,0 +1,42 @@
+# dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# next.js
+.next/
+out/
+dist/
+
+# production
+build/
+
+# misc
+.DS_Store
+*.pem
+Thumbs.db
+desktop.ini
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env
+.env*.local
+
+# vercel
+.vercel
+
+# package lock
+package-lock.json
+yarn.lock
+
+# images (jpg/jpeg/jpe)
+*.jpg
+*.jpeg
+*.jpe
+*.JPG
+*.JPEG
+*.JPE

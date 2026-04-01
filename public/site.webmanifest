@@ -1,0 +1,21 @@
+{
+  "name": "Eihamba Coffee",
+  "short_name": "Eihamba",
+  "description": "Premium Ugandan coffee from Bwindi supporting gorilla conservation and local communities.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f9f6f1",
+  "theme_color": "#3d2b1f",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
