@@ -32,11 +32,3 @@ yarn-error.log*
 # package lock
 package-lock.json
 yarn.lock
-
-# images (jpg/jpeg/jpe)
-*.jpg
-*.jpeg
-*.jpe
-*.JPG
-*.JPEG
-*.JPE

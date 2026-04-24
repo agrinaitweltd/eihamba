@@ -14,7 +14,7 @@ export default function Hero() {
   return (
     <section className="hero" id="home">
       <div className="hero-bg">
-        <img src="/hero-bg.jpg" alt="Coffee plantation in Bwindi" className="hero-bg-img" />
+        <img src="/hero-bg.png" alt="Coffee plantation in Bwindi" className="hero-bg-img" />
       </div>
       <div className="hero-overlay"></div>
 

@@ -25,7 +25,7 @@ export default function Services() {
             </ul>
           </div>
           <div className="service-image">
-            <img src="/service-sourcing.jpg" alt="Hand picking ripe red coffee cherries" className="service-img" />
+            <img src="/service-sourcing.png" alt="Hand picking ripe red coffee cherries" className="service-img" />
           </div>
         </div>
 
@@ -46,7 +46,7 @@ export default function Services() {
             </ul>
           </div>
           <div className="service-image">
-            <img src="/service-processing.jpg" alt="Coffee beans being processed" className="service-img" />
+            <img src="/service-processing.png" alt="Coffee beans being processed" className="service-img" />
           </div>
         </div>
 
@@ -67,7 +67,7 @@ export default function Services() {
             </ul>
           </div>
           <div className="service-image">
-            <img src="/service-logistics.jpg" alt="Coffee sacks in warehouse" className="service-img" />
+            <img src="/service-logistics.png" alt="Coffee sacks in warehouse" className="service-img" />
           </div>
         </div>
       </div>

@@ -4,7 +4,7 @@ export default function CTA() {
   return (
     <section className="cta-section">
       <div className="cta-bg-image">
-        <img src="/hero-bg.jpg" alt="" className="cta-bg-img" />
+        <img src="/hero-bg.png" alt="" className="cta-bg-img" />
       </div>
       <div className="cta-overlay"></div>
       <div className="container" style={{ position: 'relative', zIndex: 2 }}>

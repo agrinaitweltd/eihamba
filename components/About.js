@@ -7,7 +7,7 @@ export default function About() {
         <div className="about-grid">
           {/* Left: Image */}
           <div className="about-image reveal-left">
-            <img src="/about-farmer.jpg" alt="Farmer picking coffee cherries in Bwindi" className="about-img" />
+            <img src="/about-farmer.png" alt="Farmer picking coffee cherries in Bwindi" className="about-img" />
 
             {/* Stat Overlay */}
             <div className="stat-overlay">

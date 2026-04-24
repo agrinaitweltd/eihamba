@@ -17,7 +17,7 @@ export default function ExportCoffee() {
           {/* Ugandan Robusta */}
           <div className="coffee-product">
             <div className="product-img">
-              <img src="/robusta-beans.jpg" alt="Ugandan Robusta beans" />
+              <img src="/robusta-beans.png" alt="Ugandan Robusta beans" />
             </div>
             <div className="product-info">
               <p className="product-type">Premium Robusta</p>
@@ -37,7 +37,7 @@ export default function ExportCoffee() {
           {/* DRUGAR */}
           <div className="coffee-product">
             <div className="product-img">
-              <img src="/drugar-beans.jpg" alt="DRUGAR Arabica Natural beans" />
+              <img src="/drugar-beans.png" alt="DRUGAR Arabica Natural beans" />
             </div>
             <div className="product-info">
               <p className="product-type">Arabica Natural</p>
@@ -56,7 +56,7 @@ export default function ExportCoffee() {
           {/* WUGAR */}
           <div className="coffee-product">
             <div className="product-img">
-              <img src="/wugar-beans.jpg" alt="WUGAR Arabica Washed beans" />
+              <img src="/wugar-beans.png" alt="WUGAR Arabica Washed beans" />
             </div>
             <div className="product-info">
               <p className="product-type">Arabica Washed</p>

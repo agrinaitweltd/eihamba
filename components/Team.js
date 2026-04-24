@@ -21,7 +21,7 @@ export default function Team() {
           {/* Left Member */}
           <div className="team-member">
             <div className="member-image">
-              <img src="/team-musementa.jpg" alt="Musementa Melissa" />
+              <img src="/team-musementa.png" alt="Musementa Melissa" />
             </div>
             <h4>Natukunda Mercy</h4>
             <p className="member-title">Chief Financial Officer</p>
@@ -31,7 +31,7 @@ export default function Team() {
           {/* Center Member (Featured) */}
           <div className="team-member featured">
             <div className="member-image">
-              <img src="/team-mugabe.jpg" alt="Mugabe Dickson" />
+              <img src="/team-mugabe.png" alt="Mugabe Dickson" />
             </div>
             <span className="member-role-badge">Managing Director</span>
             <h4>Mugabe Dickson</h4>
@@ -42,7 +42,7 @@ export default function Team() {
           {/* Right Member */}
           <div className="team-member">
             <div className="member-image">
-              <img src="/team-natukunda.jpg" alt="Natukunda Mercy" />
+              <img src="/team-natukunda.png" alt="Natukunda Mercy" />
             </div>
             <h4>Musimenta Melissa</h4>
             <p className="member-title">Chief Operations Manager</p>

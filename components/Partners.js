@@ -13,7 +13,7 @@ export default function Partners() {
 
         <div className="partners-logos">
           <div className="partner-logo">
-            <img src="/partner-logo.jpeg" alt="Partner" />
+            <img src="/partner-logo.png" alt="Partner" />
           </div>
         </div>
 

@@ -2,7 +2,7 @@ export default function VisionMission() {
   return (
     <section className="vision-mission">
       <div className="vision-mission-bg">
-        <img src="/vision-bg.jpg" alt="Coffee forest background" className="vm-bg-img" />
+        <img src="/vision-bg.png" alt="Coffee forest background" className="vm-bg-img" />
       </div>
       <div className="vision-mission-overlay"></div>
 
