@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eihamba Coffee | Under Construction</title>
+  <style>
+    :root {
+      --gold: #c4a265;
+      --gold-light: #d4b87a;
+      --brown-dark: #3d2b1f;
+      --brown-medium: #5c4033;
+      --cream: #f9f6f1;
+      --cream-dark: #f0ebe3;
+      --text-dark: #2d2a26;
+      --text-medium: #62574d;
+      --white: #ffffff;
+      --shadow: 0 24px 60px rgba(61, 43, 31, 0.18);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      font-family: "Segoe UI", Arial, sans-serif;
+      color: var(--text-dark);
+      background:
+        linear-gradient(135deg, rgba(249, 246, 241, 0.92), rgba(240, 235, 227, 0.96)),
+        url("./public/hero-bg.png") center center / cover no-repeat;
+    }
+
+    .page-shell {
+      width: min(680px, 100%);
+      padding: 48px 40px;
+      text-align: center;
+      background: rgba(255, 255, 255, 0.9);
+      border: 1px solid rgba(196, 162, 101, 0.18);
+      border-radius: 28px;
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(10px);
+    }
+
+    .logo-wrap {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 144px;
+      height: 144px;
+      margin-bottom: 20px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(196, 162, 101, 0.2), rgba(255, 255, 255, 0));
+    }
+
+    .logo {
+      width: 124px;
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .eyebrow {
+      margin: 0 0 12px;
+      color: var(--gold);
+      font-size: 0.82rem;
+      font-weight: 700;
+      letter-spacing: 0.28rem;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0;
+      color: var(--brown-dark);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(2.3rem, 5vw, 3.5rem);
+      line-height: 1.1;
+    }
+
+    h2 {
+      margin: 18px 0 0;
+      color: var(--brown-medium);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(1.3rem, 3vw, 1.7rem);
+      font-weight: 600;
+    }
+
+    .divider {
+      width: 72px;
+      height: 4px;
+      margin: 26px auto 22px;
+      border-radius: 999px;
+      background: linear-gradient(90deg, var(--gold), var(--gold-light));
+    }
+
+    p {
+      margin: 0 auto;
+      max-width: 42ch;
+      color: var(--text-medium);
+      font-size: 1.03rem;
+      line-height: 1.75;
+    }
+
+    @media (max-width: 640px) {
+      body {
+        padding: 16px;
+      }
+
+      .page-shell {
+        padding: 36px 24px;
+        border-radius: 22px;
+      }
+
+      .logo-wrap {
+        width: 120px;
+        height: 120px;
+      }
+
+      .logo {
+        width: 104px;
+      }
+
+      .eyebrow {
+        letter-spacing: 0.22rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page-shell">
+    <div class="logo-wrap">
+      <img class="logo" src="./public/logo.png" alt="Eihamba Coffee logo">
+    </div>
+    <p class="eyebrow">Eihamba Coffee</p>
+    <h1>Website Under Construction</h1>
+    <h2>We are making improvements!</h2>
+    <div class="divider" aria-hidden="true"></div>
+    <p>Please check back soon as we complete a few updates to improve your experience.</p>
+  </main>
+</body>
+</html>
