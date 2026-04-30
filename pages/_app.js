@@ -3,6 +3,8 @@ import { useEffect, useState } from 'react';
 import LoadingScreen from '@/components/LoadingScreen';
 import CookiePopup from '@/components/CookiePopup';
 
+const MAINTENANCE_MODE = true;
+
 export default function App({ Component, pageProps }) {
   const [isLoading, setIsLoading] = useState(true);
   const [progress, setProgress] = useState(0);
@@ -13,6 +15,11 @@ export default function App({ Component, pageProps }) {
   };
 
   useEffect(() => {
+    if (MAINTENANCE_MODE) {
+      setIsLoading(false);
+      return;
+    }
+
     const LOADER_DURATION = 3000;
     const TICK = 40;
     let progressTimer;
@@ -48,6 +55,7 @@ export default function App({ Component, pageProps }) {
   }, []);
 
   useEffect(() => {
+    if (MAINTENANCE_MODE) return;
     if (isLoading) return;
     const storedChoice = localStorage.getItem('cookieConsentChoice');
     if (!storedChoice) {
@@ -68,7 +76,7 @@ export default function App({ Component, pageProps }) {
     <>
       {isLoading && <LoadingScreen progress={progress} />}
       <Component {...pageProps} />
-      {showCookiePopup && (
+      {!MAINTENANCE_MODE && showCookiePopup && (
         <CookiePopup
           onAccept={() => handleCookieChoice('accepted', {
             essential: true,
