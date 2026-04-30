@@ -141,31 +141,105 @@ export default function Home() {
           line-height: 1.6;
         }
 
-        @media (max-width: 640px) {
+        @media (max-width: 768px) {
           .maintenance-page {
-            padding: 16px;
+            padding: 20px 18px;
+            background-attachment: fixed;
+          }
+
+          .top-bar {
+            margin-bottom: 32px;
+            gap: 12px;
           }
 
           .brand-logo {
-            width: 74px;
+            width: 80px;
           }
 
           .status-chip {
-            padding: 8px 12px;
-            font-size: 0.68rem;
+            padding: 10px 14px;
+            font-size: 0.72rem;
+            letter-spacing: 0.08rem;
           }
 
           .hero-copy {
             margin-top: auto;
             margin-bottom: auto;
-          }
-
-          h1 {
-            line-height: 0.95;
+            padding: 24px 0;
           }
 
           .kicker {
-            letter-spacing: 0.18rem;
+            margin-bottom: 14px;
+            font-size: 0.82rem;
+            letter-spacing: 0.2rem;
+          }
+
+          h1 {
+            font-size: clamp(2.2rem, 8vw, 4.2rem);
+            line-height: 0.92;
+            margin-bottom: 6px;
+          }
+
+          h2 {
+            font-size: clamp(1rem, 2.3vw, 1.5rem);
+            margin: 16px 0 6px;
+          }
+
+          .message {
+            font-size: 0.95rem;
+            line-height: 1.5;
+            margin-top: 10px;
+          }
+        }
+
+        @media (max-width: 480px) {
+          .maintenance-page {
+            padding: 16px 14px;
+          }
+
+          .top-bar {
+            margin-bottom: 28px;
+            gap: 10px;
+          }
+
+          .brand-logo {
+            width: 72px;
+          }
+
+          .status-chip {
+            padding: 8px 12px;
+            font-size: 0.68rem;
+            letter-spacing: 0.07rem;
+          }
+
+          .hero-copy {
+            padding: 20px 0;
+          }
+
+          .kicker {
+            margin-bottom: 10px;
+            font-size: 0.76rem;
+            letter-spacing: 0.16rem;
+          }
+
+          h1 {
+            font-size: clamp(1.8rem, 7vw, 3.2rem);
+            line-height: 0.98;
+            margin-bottom: 4px;
+            letter-spacing: 0.02em;
+          }
+
+          h2 {
+            font-size: clamp(0.95rem, 2vw, 1.2rem);
+            margin: 12px 0 4px;
+            font-weight: 600;
+          }
+
+          .message {
+            font-size: 0.9rem;
+            line-height: 1.4;
+            max-width: 36ch;
+            margin-top: 8px;
           }
         }
       `}</style>
