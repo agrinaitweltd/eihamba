@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import LoadingScreen from '@/components/LoadingScreen';
 import CookiePopup from '@/components/CookiePopup';
 
-const MAINTENANCE_MODE = true;
+const MAINTENANCE_MODE = false;
 
 export default function App({ Component, pageProps }) {
   const [isLoading, setIsLoading] = useState(true);
