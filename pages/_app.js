@@ -2,10 +2,12 @@ import '@/styles/globals.css';
 import { useEffect, useState } from 'react';
 import LoadingScreen from '@/components/LoadingScreen';
 import CookiePopup from '@/components/CookiePopup';
+import useScrollAnimation from '@/hooks/useScrollAnimation';
 
 const MAINTENANCE_MODE = false;
 
 export default function App({ Component, pageProps }) {
+  useScrollAnimation();
   const [isLoading, setIsLoading] = useState(true);
   const [progress, setProgress] = useState(0);
   const [showCookiePopup, setShowCookiePopup] = useState(false);
