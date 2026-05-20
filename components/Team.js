@@ -24,8 +24,8 @@ export default function Team() {
               <img src="/team-musementa.png" alt="Musementa Melissa" />
             </div>
             <h4>Musimenta Melissa</h4>
-            <p className="member-title">Chief Operations Manager</p>
-            <p className="member-phone">Tel: +256 778 958 408</p>
+            <p className="member-title">Chief Financial Officer</p>
+            <p className="member-phone">Tel: +256 758 989 081</p>
           </div>
 
           {/* Center Member (Featured) */}
@@ -45,8 +45,8 @@ export default function Team() {
               <img src="/team-natukunda.png" alt="Natukunda Mercy" />
             </div>
             <h4>Natukunda Mercy</h4>
-            <p className="member-title">Chief Financial Officer</p>
-            <p className="member-phone">Tel: +256 758 989 081</p>
+            <p className="member-title">Chief Operations Manager</p>
+            <p className="member-phone">Tel: +256 778 958 408</p>
           </div>
         </div>
       </div>

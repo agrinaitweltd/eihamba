@@ -20,24 +20,32 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Eihamba Coffee</title>
+        <title>Eihamba Coffee | Premium Ugandan Coffee from Bwindi</title>
         <meta
           name="description"
-          content="Eihamba Coffee — premium Ethiopian coffee, sustainably sourced and expertly crafted."
+          content="Eihamba Coffee — premium Ugandan coffee from the heart of Bwindi, sustainably sourced by local farming communities. Every cup protects mountain gorillas."
+        />
+        <meta
+          name="keywords"
+          content="Ugandan coffee, Bwindi coffee, African coffee, Uganda Arabica, Uganda Robusta, DRUGAR, WUGAR, specialty coffee Uganda, gorilla conservation coffee, community coffee Africa"
         />
         <meta name="robots" content="index, follow" />
         <meta name="theme-color" content="#3D2B1F" />
+        <meta name="geo.region" content="UG" />
+        <meta name="geo.placename" content="Bwindi Impenetrable Forest, Uganda" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Eihamba Coffee" />
+        <meta property="og:site_name" content="Eihamba Coffee" />
+        <meta property="og:locale" content="en_UG" />
+        <meta property="og:title" content="Eihamba Coffee | Premium Ugandan Coffee from Bwindi" />
         <meta
           property="og:description"
-          content="Premium Ethiopian coffee, sustainably sourced and expertly crafted."
+          content="Premium Ugandan coffee from Bwindi, sustainably sourced by local farming communities. Every cup protects mountain gorillas."
         />
         <meta property="og:url" content="https://www.eihambacoffee.org/" />
         <meta property="og:image" content="https://www.eihambacoffee.org/logo.png" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Eihamba Coffee" />
-        <meta name="twitter:description" content="Premium Ethiopian coffee, sustainably sourced and expertly crafted." />
+        <meta name="twitter:title" content="Eihamba Coffee | Premium Ugandan Coffee from Bwindi" />
+        <meta name="twitter:description" content="Premium Ugandan coffee from Bwindi, sustainably sourced by local farming communities. Every cup protects mountain gorillas." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="canonical" href="https://www.eihambacoffee.org/" />
         <link rel="icon" href="/logo.png" />
