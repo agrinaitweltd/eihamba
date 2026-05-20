@@ -1081,9 +1081,7 @@ input, textarea, select {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 0.68rem;
-  font-weight: 700;
-  letter-spacing: 0.4px;
+  color: var(--gold);
   flex-shrink: 0;
 }
 
@@ -1216,9 +1214,6 @@ input, textarea, select {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 0.68rem;
-  font-weight: 700;
-  letter-spacing: 0.4px;
   color: var(--gold);
   flex-shrink: 0;
 }
@@ -1499,9 +1494,6 @@ input, textarea, select {
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
-  font-size: 1rem;
-  font-weight: 700;
-  letter-spacing: 0.8px;
   color: var(--white);
 }
 
@@ -2284,8 +2276,20 @@ input, textarea, select {
 }
 
 .partner-logo {
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.partner-logo .partner-name {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--text-medium);
 }
 
 .partner-logo .img-placeholder {

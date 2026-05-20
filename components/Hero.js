@@ -37,7 +37,11 @@ export default function Hero() {
 
       <div className="scroll-indicator">
         Scroll to Explore
-        <span className="arrow">v</span>
+        <span className="arrow">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" width="18" height="18">
+            <polyline points="6 9 12 15 18 9"/>
+          </svg>
+        </span>
       </div>
 
       <div className="hero-stats">

@@ -10,7 +10,12 @@ export default function VisionMission() {
         <div className="vision-mission-grid">
           {/* Vision */}
           <div className="vm-card reveal-left">
-            <div className="vm-icon">V</div>
+            <div className="vm-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="28" height="28">
+                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                <circle cx="12" cy="12" r="3"/>
+              </svg>
+            </div>
             <p className="vm-label">Our Vision</p>
             <h3>A Future Where Coffee Cultivation and Conservation Thrive Together</h3>
             <div className="vm-divider"></div>
@@ -23,7 +28,13 @@ export default function VisionMission() {
 
           {/* Mission */}
           <div className="vm-card reveal-right">
-            <div className="vm-icon">M</div>
+            <div className="vm-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="28" height="28">
+                <circle cx="12" cy="12" r="10"/>
+                <circle cx="12" cy="12" r="6"/>
+                <circle cx="12" cy="12" r="2"/>
+              </svg>
+            </div>
             <p className="vm-label">Our Mission</p>
             <h3>Empowering Communities, Protecting Wildlife Through Exceptional Coffee</h3>
             <div className="vm-divider"></div>

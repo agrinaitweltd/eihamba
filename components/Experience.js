@@ -34,19 +34,49 @@ export default function Experience() {
 
             <div className="process-features">
               <div className="process-feature">
-                <div className="icon">FW</div>
+                <div className="icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="20" height="20">
+                    <path d="M12 2C6 2 3 7 3 12c0 3 1.5 5.5 4 7h10c2.5-1.5 4-4 4-7 0-5-3-10-9-10z"/>
+                    <path d="M12 6v6l3 3"/>
+                  </svg>
+                </div>
                 <span>Fully Washed</span>
               </div>
               <div className="process-feature">
-                <div className="icon">SD</div>
+                <div className="icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="20" height="20">
+                    <circle cx="12" cy="12" r="4"/>
+                    <line x1="12" y1="2" x2="12" y2="4"/>
+                    <line x1="12" y1="20" x2="12" y2="22"/>
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+                    <line x1="2" y1="12" x2="4" y2="12"/>
+                    <line x1="20" y1="12" x2="22" y2="12"/>
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+                  </svg>
+                </div>
                 <span>Sun Dried</span>
               </div>
               <div className="process-feature">
-                <div className="icon">HP</div>
+                <div className="icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="20" height="20">
+                    <path d="M18 11V6a2 2 0 0 0-4 0v5"/>
+                    <path d="M14 10V4a2 2 0 0 0-4 0v6"/>
+                    <path d="M10 10.5V6a2 2 0 0 0-4 0v8"/>
+                    <path d="M6 14a4 4 0 0 0 4 4h4a4 4 0 0 0 4-4v-2.5"/>
+                  </svg>
+                </div>
                 <span>Hand Picked</span>
               </div>
               <div className="process-feature">
-                <div className="icon">NT</div>
+                <div className="icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="20" height="20">
+                    <path d="M17 8C8 10 5.9 16.17 3.82 19.34A1 1 0 0 0 4.82 21 15.09 15.09 0 0 0 17 16.5"/>
+                    <path d="M17 8a5 5 0 0 0-5 5"/>
+                    <path d="M21 3A18.9 18.9 0 0 1 17 8"/>
+                  </svg>
+                </div>
                 <span>100% Natural</span>
               </div>
             </div>
